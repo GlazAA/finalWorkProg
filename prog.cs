@@ -4,13 +4,12 @@ class Program
 {
     static void Main()
     {
-        setlocale(LC_ALL, "Russian");
-
+    
         string[] array1 = new string[100];
         string[] array2 = new string[100];
         int counter = 0;
 
-        Console.WriteLine("Введите слова и цифры. Для завершения введите 0:");
+        Console.WriteLine("Enter the words and numbers. To complete, enter 0:"); // Введите слова и цифры. Для завершения введите 0
         string input;
         do
         {
@@ -21,10 +20,10 @@ class Program
                 counter++;
             }
             
-        } while (input != "0")
-        int resultCounter = 0;
+        } while (input != "0");
 
-        
+
+        int resultCounter = 0;
         for (int i = 0; i < counter; i++)
         {
             if (array1[i].Length < 4)
@@ -36,13 +35,13 @@ class Program
 
            if (resultCounter == 0)
            {
-               Console.WriteLine("Все слова или цифры, которые вы ввели, длиннее 3-х символов. Введите короче");
+               Console.WriteLine("All the words or numbers you entered are longer than 3 characters. Enter in short"); //Все слова или цифры, которые вы ввели, длиннее 3-х символов. Введите короче
            }
                     else
                     {
                         Array.Resize(ref array2, resultCounter);
 
-                        Console.WriteLine("Результат:");
+                        Console.WriteLine("Result: \n"); //Результат
                         
                                     for (int i = 0; i < resultCounter; i++)
                                     {
