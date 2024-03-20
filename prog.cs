@@ -39,8 +39,7 @@ class Program
            }
                     else
                     {
-                        Array.Resize(ref array2, resultCounter);
-
+                        
                         Console.WriteLine("Result: \n"); //Результат
                         
                                     for (int i = 0; i < resultCounter; i++)
@@ -49,7 +48,5 @@ class Program
                                     }
                      }
 
-        Array.Clear(array1, 0, array1.Length);
-        Array.Clear(array2, 0, array2.Length);
     }
 }
