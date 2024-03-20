@@ -26,4 +26,4 @@
 3. Если в array2 есть элементы, программа выводит на экран все элементы array2.
 4. В конце программы чистится память обих массивов. 
 
-![Схема программы](https://disk.yandex.ru/i/XXq_7X1onQC2yw)
+![chart](https://github.com/GlazAA/finalWorkProg/assets/113853477/1e63a399-0276-4348-8c9d-05c8d0d767d6)
